@@ -5,6 +5,7 @@
 4. In the top left corner, select the “+ New” button, then “Folder Upload” and select the “brainflatmapvisualizationtool-main” folder that you just downloaded, then select “Upload” once more.
 5. Once uploaded, open the “brainflatmapvisualizationtool-main” folder and open the “ratInputtedData.xlsx” file.
 6. To input your specific data, enter your values in the “Values” column. All brain regions left blank will remain grey, all values of zero will be printed black, and the rest of the numerical values will be slotted into one of 7 buckets: very weak, weak, weak-moderate, moderate, moderate-strong, strong, very strong.
+    
     Note: do not change the values in “Abbreviation” column or the order of the rows because the order will be mixed up
 7. Once you’ve inputted all the data you’d like to, open the file “ratFlatmap.ipynb”
 8. The first time you ever open this file, you will need to click the play button on cell 1. After the first time, you will start running the code by playing cell 2.
