@@ -10,5 +10,5 @@
 7. Once you’ve inputted all the data you’d like to, open the file “ratFlatmap.ipynb”
 8. The first time you ever open this file, you will need to click the play button on cell 1. After the first time, you will start running the code by playing cell 2.
 9. Play cell 2, click the link that is displayed in the message output. This is to give Google permission to change the flatmap’s colors using this code. Ensure that you are signed into the same Google account that you used to run the code. Copy the passcode displayed by Google, and paste it into the empty box in the cell’s output message.
-10. Play cell 3, and wait approximately 45 seconds for the cell to finish running. You will know that it’s done when the loading bar on the play button disappears and when the bottom bar’s message switches from “Executing” to “Completed”
+10. Play cell 3, and wait approximately 75 seconds for the cell to finish running. You will know that it’s done when the loading bar on the play button disappears and when the bottom bar’s message switches from “Executing” to “Completed”
 11. View your updated heatmap in the “brainflatmapvisualizationtool-main” folder as “ratFlatmap.svg”
