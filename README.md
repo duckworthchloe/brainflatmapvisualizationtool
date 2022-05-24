@@ -4,8 +4,10 @@
 3. Sign into a Google account and open Drive. In Drive, open the “My Drive” folder on the left side menu.
 4. In the top left corner, select the “+ New” button, then “Folder Upload” and select the “brainflatmapvisualizationtool-main” folder that you just downloaded, then select “Upload” once more.
 5. Once uploaded, open the “brainflatmapvisualizationtool-main” folder and open the folder for the animal model you’d like to work with. Then open its ____InputtedData.xlsx file.
-    a) Note: these instructions with be using the rat model as an example, but the steps are the same for the mouse and human maps as well.
+
+a) Note: these instructions with be using the rat model as an example, but the steps are the same for the mouse and human maps as well.
 6. To input your specific data, enter your values in the “Data Value” columns for the left and right side under “Data Entry (user entered)”. All brain regions left blank will remain grey, all zero values will be printed blue, and the rest of the numerical values will be slotted into one of 7 buckets: very weak, weak, weak-moderate, moderate, moderate-strong, strong, very strong.
+    
     a) Note: you can input data in any order of regions as long as you only edit the values under “Data Entry (user entered).” You don’t have to give data for the same regions on each side.
     b) The map’s default is to use equally spaced bins with the minimum starting at your lowest value and the maximum being your highest value. If you would like to define your own bin values for the heatmap, change only the values under “(<=) high” and ensure all the data values you input are included in your chosen range, or else the outliers will be excluded from the map. 
 7. Once you’ve inputted all the data you’d like to, open the file “ratFlatmap.ipynb”
