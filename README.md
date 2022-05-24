@@ -1,4 +1,4 @@
-# brainflatmapvisualizationtool
+# Brain Flatmap Visualization Tool @ Hahn Lab @ USC
 1. On Github, click the green “Code button” and select “Download Zip”
 2. Open the .zip file downloaded, which will unzip the file and create a folder called “brainflatmapvisualizationtool-main”
 3. Sign into a Google account and open Drive. In Drive, open the “My Drive” folder on the left side menu.
