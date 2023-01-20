@@ -50,4 +50,4 @@ When the code is executing, a play icon [►] to the left of each code cell will
 
 •	If you are entering multiple datasets, to prevent use of cached data, after clearing the data it is recommended to close and reopen the data entry sheet and .ipynb file before entering new data.
 
-Project contact e-mail: brainflatmapvis@gmail.com
+Project contact e-mail: brainflatmapviz@gmail.com
