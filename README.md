@@ -4,7 +4,7 @@ File setup (steps 1-5, for tools first use).
 
 1.	The brain flatmap visualization tools require a Google Account and a modern web browser (Google Chrome recommended). If you do not already have a Google Account, visit the following link to create one: https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp.
 
-2.	Files required to run the flatmap tools are stored as a repository on GitHub (a popular website for open-source software development). A free GitHub account is required to access the files (https://github.com). Sign into your GitHub account and visit: https://github.com/duckworthchloe/brainflatmapvisualizationtool. Select the green [Code] button and then select [Download ZIP].
+2.	Files required to run the flatmap tools are stored as a repository on GitHub (a popular website for open-source software development). A GitHub account is not required to access the files, which are avaialble at: https://github.com/duckworthchloe/brainflatmapvisualizationtool. Select the green [Code] button and then select [Download ZIP].
 
 3.	Locate and open the ZIP file you downloaded (file name: brainflatmapvisualizationtool-main). This will open the ZIP file contents to show an unzipped folder with the same name as the ZIP file. Drag and drop or copy and paste the unzipped folder to an accessible folder on your computer.
 
