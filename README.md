@@ -1,10 +1,12 @@
 Brain Flatmap Visualization Tools Instructions
 
+Please note: These instructions are periodically revised and updated from the originally published version to account for dependency (or other) changes associated with the code that are intended to ensure its continuing operation. Please refer to the current instructions given below.
+
 File setup (steps 1-5, for tools first use).
 
 1.	The brain flatmap visualization tools require a Google Account and a modern web browser (Google Chrome recommended). If you do not already have a Google Account, visit the following link to create one: https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp.
 
-2.	Files required to run the flatmap tools are stored as a repository on GitHub (a popular website for open-source software development). A GitHub account is not required to access the files, which are avaialble at: https://github.com/duckworthchloe/brainflatmapvisualizationtool. Select the green [Code] button and then select [Download ZIP].
+2.	Files required to run the flatmap tools are stored as a repository on GitHub (a popular website for open-source software development). A GitHub account is not required to access the files, which are available at: https://github.com/duckworthchloe/brainflatmapvisualizationtool. Select the green [Code] button and then select [Download ZIP]. If you have not used the flatmap tools recently, delete any older versions of the files you had previously downloaded and placed in your Google Drive (also remove them from the Trash folder), and download the current version.
 
 3.	Locate and open the ZIP file you downloaded (file name: brainflatmapvisualizationtool-main). This will open the ZIP file contents to show an unzipped folder with the same name as the ZIP file. Drag and drop or copy and paste the unzipped folder to an accessible folder on your computer.
 
@@ -12,7 +14,7 @@ File setup (steps 1-5, for tools first use).
 
 5.	In the top left corner, select the [+ New] button, then select [Folder upload], then locate and select the unzipped [brainflatmapvisualizationtool-main] folder on your computer and select [Upload] to upload the folder to your Google Drive.
 
-•	Steps 1-5 only need to be performed once for the same Google Account.
+•	Steps 1-5 typically only need to be performed once for the same Google Account.
 
 Data entry (steps 6-8).
 
@@ -44,9 +46,15 @@ Flatmap generation (steps 9-11).
 9.	When you have finished entering data, in the folder [brainflatmapvisualizationtool-main] in your Google Drive, open the file ratFlatmap.ipynb (a notebook document file containing the code required to generate the flatmap). Opening ratFlatmap.ipynb will open the code document in a new browser tab in Google Colaboratory. When opening ratFlatmap.ipynb, if you are prompted with an [Open with Colab] button at the top of the page, select it. If this opens the ratFlatmap.ipynb file, proceed to step 10, otherwise select [Connect more apps], and in the window that appears select the [Search] button, and search for “Colaboratory”. Then select [Colaboratory] and [Install] buttons. When prompted for permission, select [Continue] and select/sign into the Google Account that you are using. After installation, refresh the browser window, and the code will open in Colaboratory.
 
 10.	You will now execute code in Colaboratory to generate the brain flatmap data diagram. To execute the code it is necessary to “play” code cells 1-3 in sequence. To perform this operation, from the [Runtime] menu at the top of the screen select [Run all] or use the keyboard shortcut [Ctrl+F9].
-When the code is executing, a play icon [►] to the left of each code cell will be animated. Completion of code execution is indicated by a green check mark [✓] to the left of the play icon. Depending on your web browser and Google Account security settings, running the code may trigger one or more security dialogue boxes asking for your permission to execute the code and to access your Google Drive files. For the code to run it is necessary for the Colaboratory notebook to have read and write access the associated Google Drive folder. Follow the prompts in the affirmative to proceed. Granting access may also generate automatic security notifications that are sent to your associated Google email (Gmail). 
+When the code is executing, a play icon [►] to the left of each code cell will be animated. Completion of code execution is indicated by a green check mark [✓] to the left of the play icon. Depending on your web browser and Google Account security settings, running the code may trigger one or more security dialogue boxes asking for your permission to execute the code and to access your Google Drive files. For the code to run it is necessary for the Colaboratory notebook to have read and write access the associated Google Drive folder. Follow the prompts in the affirmative to proceed. Granting access may also generate automatic security notifications that are sent to your associated Google email (Gmail).
 
-11.	After all three steps of the code have executed, the flatmap files generated will be deposited in the [brainflatmapvisualizationtool-main] folder in your Google Drive. There may be a delay of a few minutes until the final diagrams are available, depending on the Google server speed. If the diagrams do not appear finalized, wait a few minutes, then refresh your browser window. Three files will be generated: ratFlatmapWithKey.pdf, ratFlatmap.pdf, and ratFlatmap.svg. These files can be previewed in the web browser and downloaded to your computer. The ratFlatmapWithKey.pdf file combines the flatmap with overlay and color key. The other two files do not include the overlay. In addition to these files, separate overlay only Adobe Illustrator and PDF files are also present in the [Rat] folder. All the files can be opened and edited for further customization in Adobe Illustrator, or other PDF and SVG file editing software (such as the Open-Source GNU Image Manipulation Program (GIMP), or Blender).
+•	If you are generating more than one flatmap for the same species in the same session, it is necessary only to re-play step 3 for each subsequent flatmap generated. To play only step 3, select/click the play icon for step 3.
+
+11.	After all three steps of the code have executed, the flatmap files generated will be deposited in the [brainflatmapvisualizationtool-main] folder in your Google Drive.
+
+•	There is a latency associated with the data you input to the spreadsheet being sent to the Google cloud server and it being accessible by the Colaboratory notebook (this is separate from the saving of files within Google Drive that typically happens within a matter of seconds). For this reason, we recommend waiting 5 minutes after inputting your data before running the code. If the flatmap output does not show the expected result, wait for an additional 5 minutes and then rerun the code.
+
+Three files will be generated: ratFlatmapWithKey.pdf, ratFlatmap.pdf, and ratFlatmap.svg. These files can be previewed in the web browser and downloaded to your computer. The ratFlatmapWithKey.pdf file combines the flatmap with overlay and color key. The other two files do not include the overlay. In addition to these files, separate overlay only Adobe Illustrator and PDF files are also present in the [Rat] folder. All the files can be opened and edited for further customization in Adobe Illustrator, or other PDF and SVG file editing software (such as the Open-Source GNU Image Manipulation Program (GIMP), or Blender).
 
 •	If you are entering multiple datasets, to prevent use of cached data, after clearing the data it is recommended to close and reopen the data entry sheet and .ipynb file before entering new data.
 
